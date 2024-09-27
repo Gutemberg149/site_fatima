@@ -1,4 +1,4 @@
-import { Mapa, WrapperFooter, Container } from "./footerStyle";
+import { Mapa, WrapperFooter, Container, WrapperFooterDesigner } from "./footerStyle";
 
 const Footer = () => {
   return (
@@ -17,6 +17,11 @@ const Footer = () => {
         <p>Rua Freicaneca 59, Bela Vista, SP</p>
         <p>Tel:(11)99519-6296</p>
       </WrapperFooter>
+
+      <WrapperFooterDesigner>
+        <p>Site criado por Gutemberg - (11)98803-7322 - gutemberg149@gmail.com</p>
+        <p>Telefone fixo DMC SYSTEM 3159_3469</p>
+      </WrapperFooterDesigner>
     </Container>
   );
 };
